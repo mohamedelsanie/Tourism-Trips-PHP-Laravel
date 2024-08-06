@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+body{
+	font-family: 'Roboto', sans-serif !important;
+	height:100vh;
+	color: #3a3e42 !important;
+	direction:ltr;
+}
+.AppForm .AppFormLeft {
+    text-align: left;
+    width: 100%;
+    padding: 50px;
+}
+.AppForm .AppFormLeft h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.AppForm .AppFormLeft input{
+    text-indent: 10px;
+}
+.AppForm .AppFormLeft input:focus{
+	border-color: #ced4da;
+}
+.AppForm .AppFormLeft input::placeholder{
+	font-size: 15px;
+}
+.AppForm .AppFormLeft i{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.AppForm .AppFormLeft .form-check-label {
+    margin-bottom: 0;
+    text-indent: 20px;
+}
+.AppForm .AppFormLeft a{
+	color: #3a3e42 ;
+}
+.AppForm .AppFormLeft button {
+    background: linear-gradient(-45deg,#2196f3,#009688);
+    border-radius: 30px;
+    display: block;
+    padding: 15px !important;
+    font-size: 14px;
+}
+.AppForm .AppFormLeft p span{
+	color: #007bff;
+}
+.AppForm .AppFormRight {
+    background-image: url(../img/bg-img/login.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.AppForm .AppFormRight:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(-45deg,#8D334C,#CF6964);
+	opacity: 0.5;
+}
+.AppForm .AppFormRight h2{
+	z-index: 1;
+}
+.AppForm .AppFormRight h2::after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	bottom: 0;
+	right:50%;
+	transform: translateX(50%);
+}
+.AppForm .AppFormRight p{
+	z-index: 1;
+}
+@media (max-width: 991px){
+	.d-sm-none {
+		display:none !important;
+	}
+	.col-md-6{
+		flex: 0 0 100% !important;
+		max-width: 100% !important;
+	}
+}

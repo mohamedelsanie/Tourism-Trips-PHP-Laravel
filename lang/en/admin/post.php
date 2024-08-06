@@ -1,0 +1,68 @@
+<?php
+
+return [
+
+    'index' => [
+        'title' => 'Posts',
+        'create' => 'Create News',
+        'archive' => 'Posts Archive',
+        'title_tag' => '- Posts',
+        'notfound' => 'Posts Not Found',
+    ],
+    'messages' => [
+        'no_categories' => 'Plaese Create A Category First',
+        'created' => 'News Created Sucsessfuly',
+        'edited' => 'News :post Edited Sucsessfuly',
+        'deleted' => 'News Deleted Sucsessfuly',
+        'restored' => 'News Restored Sucsessfuly',
+        'restored_selected' => 'Posts Restored Sucsessfuly',
+        'delete_empty' => 'Please Choose Posts To Delete',
+        'deleted_selected' => 'Posts Deleted Sucsessfuly',
+    ],
+    'archive' => [
+        'title' => 'Posts Archive',
+        'all' => 'All Posts',
+        'title_tag' => '- Posts Archive',
+        'notfound' => 'Posts Archive Not Found',
+    ],
+    'show' => [
+        'title' => 'News Title : ',
+        'category' => 'News Category : ',
+        'content' => 'News Content : ',
+        'comments' => 'News Comments',
+        'comments_t' => 'Title',
+        'comments_s' => 'Status',
+        'comments_a' => 'Action',
+        'comments_n' => 'No Comments For This News',
+        'view' => 'View News : ',
+        'back' => 'Back To Posts',
+        'title_tag' => '- Show News :title',
+    ],
+    'create' => [
+        'create' => 'Create News',
+        'title_tag' => '- Create News',
+    ],
+    'edit' => [
+        'edit' => 'Edit News : ',
+        'title_tag' => '- Edit News :post',
+    ],
+    'fields' => [
+        'title' => 'News Name',
+        'slug' => 'News Slug',
+        'info' => 'News Informations',
+        'meta_desc' => 'Meta Description',
+        'meta_tags' => 'Meta Tags',
+        'content' => 'News Content',
+        'tags' => 'News tags',
+        'image' => 'News image',
+        'media' => 'Media',
+        'category' => 'Category',
+        'select_category' => 'Select Category',
+        'status' => 'Status',
+        'choose' => 'Choose...',
+        'publish' => 'Publish',
+        'draft' => 'Draft',
+        'create' => 'create News',
+        'update' => 'Update News',
+    ],
+];

@@ -1,0 +1,62 @@
+<?php
+
+return [
+
+    'index' => [
+        'title' => 'Tours',
+        'create' => 'Create New',
+        'archive' => 'Tours Archive',
+        'title_tag' => '- Tours',
+        'notfound' => 'There is no data to display',
+    ],
+    'messages' => [
+        'created' => 'The Tour created successfully',
+        'edited' => 'The Tour :page updated successfully',
+        'deleted' => 'The Tour Deleted Sucsessfuly',
+        'restored' => 'Tour Restored Sucsessfuly',
+        'restored_selected' => 'Tours Restored Sucsessfuly',
+        'delete_empty' => 'Please Choose Tours To Delete',
+        'deleted_selected' => 'Tours Deleted Sucsessfuly',
+    ],
+    'archive' => [
+        'title' => 'Tours Archive',
+        'all' => 'All Tours',
+        'title_tag' => '- Tours Archive',
+        'notfound' => 'There is no data to display',
+    ],
+    'create' => [
+        'create' => 'Create New Tour',
+        'title_tag' => '- Create New Tour',
+    ],
+    'edit' => [
+        'edit' => 'Update Tour : ',
+        'title_tag' => '- Update Tour :page',
+    ],
+    'fields' => [
+        'title' => 'Tour Title',
+        'slug' => 'Tour Slug',
+        'info' => 'Tour Informations',
+        'offers' => 'Additional Offers',
+        'from_place' => 'place From',
+        'from_date' => 'date of going',
+        'to_place' => 'arrival place',
+        'to_date' => 'arrival date',
+        'price' => 'Tour Price',
+        'price_eg' => 'EGP Price',
+        'category_id' => 'Category',
+        'comments_status' => 'Comments status',
+        'open' => 'open',
+        'closed' => 'closed',
+        'description' => 'Tour Description',
+        'content' => 'Tour Content',
+        'status' => 'Tour Status',
+        'publish' => 'publish',
+        'pending' => 'pending',
+        'draft' => 'draft',
+        'choose' => 'choose ...',
+        'image' => 'Thumbnail',
+        'media' => 'Photos',
+        'create' => 'Create Tour',
+        'update' => 'Update Tour',
+    ],
+];

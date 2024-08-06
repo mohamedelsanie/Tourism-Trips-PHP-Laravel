@@ -1,0 +1,42 @@
+<?php
+
+return [
+
+    'title' => 'profile',
+    'profile_info' => 'Profile information',
+    'profile_desc' => 'Update your account profile information and email address.',
+    'not_verify' => 'Your email address has not been verified.',
+    'resend' => 'Click here to resend the verification email.',
+    'sent' => 'A new verification link has been sent to your email address.',
+    'country_code' => 'country code',
+    'phone' => 'Phone',
+    'save' => 'Save',
+    'saved' => 'Saved',
+    'update_pass' => 'change password',
+    'update_desc' => 'Make sure your account uses a long, random password to stay secure.',
+    'password' => 'Password',
+    'current_pass' => 'Current Password',
+    'new_pass' => 'New Password',
+    'confirm_pass' => 'confirm password',
+    'delete' => 'delete account',
+    'delete_desc' => 'Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information you wish to keep.',
+    'delete_account' => 'delete account',
+    'delete_msg_title' => 'Are you sure you want to delete your account?',
+    'delete_msg' => 'Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm that you want to permanently delete your account.',
+    'cancel' => 'Cancel',
+    'dashboard' => 'Orders',
+    'order' => [
+        'date' => 'Date',
+        'title' => ' Title',
+        'amount' => 'Price',
+        'status' => 'Status',
+        'offers' => 'Additional orders : ',
+        'not_payed' => 'Unpaid',
+        'payed' => 'paid',
+        'canceled' => 'Canceled',
+        'notfound' => 'There are no pre-orders',
+    ],
+    'clickto_checkout' => 'You are successfully logged in. Please click Continue to complete the request',
+    'checkout' => 'Continue Pay',
+
+];

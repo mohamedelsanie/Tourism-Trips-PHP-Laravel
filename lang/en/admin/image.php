@@ -1,0 +1,65 @@
+<?php
+
+return [
+
+    'index' => [
+        'title' => 'Photo Gallery',
+        'create' => 'Create New',
+        'archive' => 'Photos Archive',
+        'title_tag' => '- Photo Gallery',
+        'notfound' => 'There is no data to display',
+    ],
+    'messages' => [
+        'created' => 'The Gallery created successfully',
+        'edited' => 'The Gallery :ad updated successfully',
+        'deleted' => 'The Gallery Deleted Sucsessfuly',
+        'restored' => 'Gallery Restored Sucsessfuly',
+        'restored_selected' => 'Galleries Restored Sucsessfuly',
+        'delete_empty' => 'Please Choose Galleries To Delete',
+        'deleted_selected' => 'Galleries Deleted Sucsessfuly',
+    ],
+    'archive' => [
+        'title' => 'Photos Archive',
+        'all' => 'Show all Photos',
+        'title_tag' => '- Photos Archive',
+        'notfound' => 'There is no data to display',
+    ],
+    'show' => [
+        'view' => 'View gallery : ',
+        'back' => 'back to Photo Galleries',
+        'title_tag' => '- View gallery :title',
+    ],
+    'create' => [
+        'create' => 'Create new',
+        'title_tag' => '- create new',
+    ],
+    'edit' => [
+        'edit' => 'Update gallery : ',
+        'title_tag' => '- Update :ad',
+    ],
+    'fields' => [
+        'title' => 'Gallery title',
+        'slug' => 'Gallery Slug',
+        'current_slug' => 'Current Url',
+        'info' => 'Gallery Informations',
+        'comments_status' => 'Comments status',
+        'gallery' => 'Gallery',
+        'gallery_name' => 'image title',
+        'gallery_link' => 'Image link',
+        'open' => 'Open',
+        'closed' => 'Closed',
+        'description' => 'Gallery Description',
+        'content' => 'Gallery Content',
+        'choose' => 'Choose ...',
+        'image' => 'Thumbnail',
+        'media' => 'Photos',
+        'status' => 'Gallery Status',
+        'publish' => 'publish',
+        'pending' => 'pending',
+        'draft' => 'draft',
+        'enabled' => 'enabled',
+        'disabled' => 'disabled',
+        'create' => 'create gallery',
+        'update' => 'Update gallery',
+    ],
+];
